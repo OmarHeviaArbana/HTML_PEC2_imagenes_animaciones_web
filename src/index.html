@@ -16,7 +16,12 @@
     <header>
         <nav>
             <a href="index.html">
-                <img src="./img/logo_navBar.svg" alt="Logotipo del grupo Twenti One Pilots">
+                <img src="./img/logo_navBar.svg" alt="Logotipo del grupo Twenty One Pilots">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./img/logo-footer/logotipo-footer-600w.svg" />
+                    <source media="(min-width: 1200px)" srcset="./img/logo-footer/logotipo-footer-1200w.svg" />
+                    <img class="logotipo-nav" src="./img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+                </picture>
             </a>
             <ul>
                 <li><a class="linkNavSeleccionado" href="./index.html">Inicio</a></li>
@@ -28,57 +33,124 @@
     </header>
     <main>
         <div class="contianerImg">
+
             <h1 class="tituloHome">Twenty One Pilots</h1>
+       
+            <img class="clip-image-poligon " 
+            srcset="./img/sky-yellow/sky-yellow-600w.png 600w, 
+                    ./img/sky-yellow/sky-yellow-1200w.png 1200w"
+            sizes="(min-width: 600px) 600px, 
+                   (min-width: 1200px) 1200px"
+            src="./img/sky-yellow/sky-yellow.png"
+            alt="Imagen de cielo en forma de cruz y con filtro amarillo"/>
+
+            <img class="clip-image-rectangle " 
+            srcset="./img/sky-yellow/sky-yellow-600w.png 600w, 
+                    ./img/sky-yellow/sky-yellow-1200w.png 1200w"
+            sizes="(min-width: 600px) 600px, 
+                   (min-width: 1200px) 1200px"
+            src="./img/sky-yellow/sky-yellow.png"
+            alt="Imagen de cielo en forma de rectangulo y con filtro amarillo"/>
+
+            <img class="clip-image-parallelogram " 
+            srcset="./img/sky-yellow/sky-yellow-600w.png 600w, 
+                    ./img/sky-yellow/sky-yellow-1200w.png 1200w"
+            sizes="(min-width: 600px) 600px, 
+                   (min-width: 1200px) 1200px"
+            src="./img/sky-yellow/sky-yellow.png"
+            alt="Imagen de cielo en forma de paralelograma y con filtro amarillo"/>
+
+            <img class="clip-image-circle" 
+            srcset="./img/sky-yellow/sky-yellow-600w.png 600w, 
+                    ./img/sky-yellow/sky-yellow-1200w.png 1200w"
+            sizes="(min-width: 600px) 600px, 
+                   (min-width: 1200px) 1200px"
+            src="./img/sky-yellow/sky-yellow.png"
+            alt="Imagen de cielo en forma de circulo y con filtro amarillo"/>
         </div>
-        <h2>Store</h2>
+
+        </div>
+        <div class="container-animacion">
+            <h4 class="animacion"></h4>
+        </div>
+        <h2  class="tituloPage">Store</h2>
         <section >
             <div class="productsContainer">
                 <div class="card">
-                    <img class="imgProduct" src="img/album_uno.png" alt="Carátula de Vinilo Clancy en negro">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="./img/store/store-producto-uno/store-producto-uno-600w.png" />
+                        <source media="(min-width: 1200px)" srcset="./img/store/store-producto-uno/store-producto-uno-1200w.png" />
+                        <img class="imgProduct" src="./img/store/store-producto-uno/store-producto-uno.png"  alt="Carátula de Vinilo Clancy en negro">
+                    </picture>
                     <div>
                         <h3>Próximo Lanzamiento</h3>
                         <a href=""> Pre-order</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="imgProduct" src="img/album_dos.png" alt="Carátula de Vinilo Clancy en gris">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="./img/store/store-producto-dos/store-producto-dos-600w.png" />
+                        <source media="(min-width: 1200px)" srcset="./img/store/store-producto-dos/store-producto-dos-1200w.png" />
+                        <img class="imgProduct" src="./img/store/store-producto-dos/store-producto-dos.png"  alt="Carátula de Vinilo Clancy en gris">
+                    </picture>
+                    <div>
+                        <h3>Próximo Lanzamiento</h3>
+                        <a href="">Pre-order</a>
+                    </div>
+                </div>
+            
+            <div class="card">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./img/store/store-producto-tres/store-producto-tres-600w.png" />
+                    <source media="(min-width: 1200px)" srcset="./img/store/store-producto-tres/store-producto-tres-1200w.png" />
+                    <img class="imgProduct" src="./img/store/store-producto-tres/store-producto-tres.png"  alt="Colección Clancy con estuche, fotografías y cinta">
+                </picture>
                 <div>
                     <h3>Próximo Lanzamiento</h3>
                     <a href="">Pre-order</a>
                 </div>
             </div>
             <div class="card">
-                <img class="imgProduct" src="img/album_cuatro.png" alt="Libro-Cd Clancy">
-                <div>
-                    <h3>Próximo Lanzamiento</h3>
-                    <a href="">Pre-order</a>
-                </div>
-            </div>
-            <div class="card">
-                <img class="imgProduct" src="img/album_cinco.png" alt="Colección Clancy con estuche, fotografías y cinta">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./img/store/store-producto-cuatro/store-producto-cuatro-600w.png" />
+                    <source media="(min-width: 1200px)" srcset="./img/store/store-producto-cuatro/store-producto-cuatro-1200w.png" />
+                    <img class="imgProduct" src="./img/store/store-producto-cuatro/store-producto-cuatro.png"  alt="Colección Clancy con estuche, fotografías y cinta">
+                </picture>
                 <div>
                     <h3>Próximo Lanzamiento</h3>
                     <a href="">Pre-order</a>
                 </div>
             </div>
         </div>
-            
-
-          
-        </section>
-    </main>
+        
+    </section>
+    <div class="container-animacion">
+        <h4 class="animacion"></h4>
+    </div>
+</main>
     <footer class="footerHome">
         <div class="leftInfoSide">
-            <img src="./img/logotipo_footer.svg" alt="Logotipo de Twenty One Pilots en Amarillo">
+            <div class="container-logo">
+                <img
+                class="fire-img-footer-poligon"
+                srcset="./img/fire-red/fire-600w.png , ./img/sky-yellow/sky-yellow.png 1.5x, ./img/fire-red/fire-1200w.png 2x "
+                src="./img/sky-yellow/sky-yellow.png"
+                alt="Logo cruz de Twenty One Pilots en rojo" />
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./img/logo-footer/logotipo-footer-600w.svg" />
+                <source media="(min-width: 1200px)" srcset="./img/logo-footer/logotipo-footer-1200w.svg" />
+                <img class="logotipo-footer" src="./img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+            </picture>
         </div> 
         <div class="rightLegalSide">
             <ul class="listLegalLinks">
-                <li><a href="">Política de privacidad</a></li>
-                <li><a href="">Política de cookies</a></li>
-                <li><a href="">Aviso legal</a></li>
+                <li><a href="/src/html/categoria.html">Noticias</a></li>
+                <li><a href="/src/html/presentacion.html">Presentación</a></li>
+                <li><a href="/src/html/enlaces.html">Enlaces</a></li>
+
             </ul>
         </div>
-    
     </footer> 
     </body>
 </html>

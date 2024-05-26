@@ -16,7 +16,12 @@
     <header>
         <nav>
             <a href="./../index.html">
-                <img src="./../img/logo_navBar.svg" alt="Logotipo del grupo Twenti One Pilots">
+                <img src="./../img/logo_navBar.svg" alt="Logotipo del grupo Twenty One Pilots">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./../img/logo-footer/logotipo-footer-600w.svg" />
+                    <source media="(min-width: 1200px)" srcset="./../img/logo-footer/logotipo-footer-1200w.svg" />
+                    <img class="logotipo-nav" src="./../img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+                </picture>
             </a>
             <ul>
                 <li><a  href="./../index.html">Inicio</a></li>
@@ -30,6 +35,22 @@
         <h2 class="tituloPage">Enlaces</h2>
         <section>
             <div class="containerEnlaces">
+                <div class="cardEnlaces">
+                    <h4>Imagen de Alex Kuimov obtenida en Pixabay</h4>
+                    <p>Imagen de Fuego responsive y ubicada en Detalle de la noticia destacada</p>
+                    <a class="linkEnlaces" target="_blank" href="https://pixabay.com/es/users/spoot-9433365/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4646163"> Ver Fuente</a>
+                </div>
+                <div class="cardEnlaces">
+                    <h4>Imagen de Satyaban Sahoo obtenida en Pixabay</h4>
+                    <p>Imagen de Cielo situada en el clip path en Portada</p>
+                    <a class="linkEnlaces" target="_blank" href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8775846"> Ver Fuente</a><a class="linkEnlaces" target="_blank" href="https://pixabay.com/es/users/satya_1-28956359/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8775846">Satyaban Sahoo</a> 
+                </div>
+                <div class="cardEnlaces">
+                    <h4>Twenty One Pilots:  Web Oficial</h4>
+                    <p>Extracción de recursos gráficos (logotipos e imágenes discos), colores y tipografías utilizando las herramientas de desarrollo del navegador web</p>
+                    <a class="linkEnlaces" target="_blank" href="https://www.twentyonepilots.com"> Ver Fuente</a>
+                </div>
+                
                 <div class="cardEnlaces">
                     <h4>Twenty One Pilots:  Web Oficial</h4>
                     <p>Extracción de recursos gráficos (logotipos e imágenes discos), colores y tipografías utilizando las herramientas de desarrollo del navegador web</p>
@@ -91,16 +112,27 @@
     </main>
     <footer class="footerHome">
         <div class="leftInfoSide">
-            <img src="./../img/logotipo_footer.svg" alt="Logotipo de Twenty One Pilots en Amarillo">
+            <div class="container-logo">
+                <img
+                class="fire-img-footer-poligon"
+                srcset="./../img/fire-red/fire-600w.png , ./../img/sky-yellow/sky-yellow.png 1.5x, ./../img/fire-red/fire-1200w.png 2x "
+                src="./../img/sky-yellow/sky-yellow.png"
+                alt="Logo cruz de Twenty One Pilots en rojo" />
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./../img/logo-footer/logotipo-footer-600w.svg" />
+                <source media="(min-width: 1200px)" srcset="./../img/logo-footer/logotipo-footer-1200w.svg" />
+                <img class="logotipo-footer" src="./../img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+            </picture>
         </div> 
         <div class="rightLegalSide">
             <ul class="listLegalLinks">
-                <li><a href="">Política de privacidad</a></li>
-                <li><a href="">Política de cookies</a></li>
-                <li><a href="">Aviso legal</a></li>
+                <li><a href="/src/html/categoria.html">Noticias</a></li>
+                <li><a href="/src/html/presentacion.html">Presentación</a></li>
+                <li><a href="/src/html/enlaces.html">Enlaces</a></li>
+
             </ul>
-    </div>
-    
+        </div>
     </footer> 
 </body>
 </html>

@@ -15,7 +15,12 @@
     <header>
         <nav>
             <a href="./../index.html">
-                <img src="./../img/logo_navBar.svg" alt="Logotipo del grupo Twenti One Pilots">
+                <img src="./../img/logo_navBar.svg" alt="Logotipo del grupo Twenty One Pilots">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./../img/logo-footer/logotipo-footer-600w.svg" />
+                    <source media="(min-width: 1200px)" srcset="./../img/logo-footer/logotipo-footer-1200w.svg" />
+                    <img class="logotipo-nav" src="./../img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+                </picture>
             </a>
             <ul>
                 <li><a  href="./../index.html">Inicio</a></li>
@@ -28,11 +33,13 @@
     <main>
         <h2 class="tituloPage">Presentación</h2>
         <article class="articlePresentacion">
+            <div class="container-animacion">
+                <h4 class="animacion-presentacion"></h4>
+            </div>
             <div class="containerPresVideo">
                 <video autoplay loop src="./../video/presentacion_video.mp4">
                     <a class ="linkPresVideo" href="http://">Ver Video</a>
                 </video>
-                
             </div>
 
             <div class="container">
@@ -46,43 +53,51 @@
                     <div class="articleBodyContainer">
                     <p>En sitio web  a Twenty One Pilots, grupo estadounidense formado por Tyler Joseph y Josh Dun. Este espacio está dedicado a los fanáticos de la banda donde pueden disfrutar de una experiencia personalizada e interactiva centrada en su música y contenido relacionado con la banda. Incluyendo un espacio para las últimas novedades sobre el grupo. Así, como comprar artículos relacionados con la banda. 
                     </p>
-                    <p>
-                        
-                    Para su realización se han utilizado recursos gráficos de la propia página web del grupo. Así como imágenes  extraídas de diferentes artículos cuyas referencias están en el menú enlaces. En cuanto al diseño ha sido inspirado en la linea gráfica actual de la banda que se corresponde con la nueva gráfica del nuevo disco The Clancy.En cuanto a los contenidos, nos encontramos con un menú de Noticias, Detalle a una de las noticias, Enlaces, Presentación del sitio y , por supuesto, una landing page a modo de portada del sitio.  </p>
-                  
+                    <p>Para su realización se han utilizado recursos gráficos de la propia página web del grupo. Así como imágenes  extraídas de diferentes artículos cuyas referencias están en el menú enlaces. En cuanto al diseño ha sido inspirado en la linea gráfica actual de la banda que se corresponde con la nueva gráfica del nuevo disco The Clancy.En cuanto a los contenidos, nos encontramos con un menú de Noticias, Detalle a una de las noticias, Enlaces, Presentación del sitio y , por supuesto, una landing page a modo de portada del sitio.  </p>
                     <p>En el futuro, el sitio web también podría incluir una sección multimedia con acceso a videoclips, presentaciones en vivo y galerías de fotos de conciertos pasados. Además, se podría incluir un foro para la comunidad de seguidores, donde los fans puedan compartir opiniones, historias y contenido relacionado con la banda. Otra característica destacada podría ser un calendario interactivo de eventos y la posibilidad de suscribirse a un boletín electrónico completarían la experiencia, permitiendo a los seguidores mantenerse informados y conectados con Twenty One Pilots en todo momento.</p>
                     </div>
                 </div>  
-
-               
                 <div class="cardBlog">
                     <div>
-                        <img class="imgProduct" src="../img//noticia_tres_imagen.jpg" alt="Imagen en blanco y negro de los componentes de la banda Josh y Taylor">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="./../img/presentacion/presentacion-600w.png" />
+                            <source media="(min-width: 1200px)" srcset="./../img/presentacion/presentacion-1200w.png" />
+                            <img class="imgProduct" src="./../img/presentacion/presentacion.png"  alt="Imagen en blanco y negro de los componentes de la banda Josh y Taylor">
+                        </picture>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="./../img/logo-navbar/logo-navBar-600w.svg" />
+                            <source media="(min-width: 1200px)" srcset="./../img/logo-navbar/logo-navBar-1200w.svg" />
+                            <img class="logotipo-presentacion" src="./../img/logo-navbar/logo-navBar.svg"  alt="Logotipo del grupo">
+                        </picture>
                     </div>
-                   
-                
-                
-               
-                   
                 </div>
-              
-                 
             </div>
         </article>
        
     </main>
     <footer class="footerHome">
         <div class="leftInfoSide">
-            <img src="./../img/logotipo_footer.svg" alt="Logotipo de Twenty One Pilots en Amarillo">
+            <div class="container-logo">
+                <img
+                class="fire-img-footer-poligon"
+                srcset="./../img/fire-red/fire-600w.png , ./../img/sky-yellow/sky-yellow.png 1.5x, ./../img/fire-red/fire-1200w.png 2x "
+                src="./../img/sky-yellow/sky-yellow.png"
+                alt="Logo cruz de Twenty One Pilots en rojo" />
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./../img/logo-footer/logotipo-footer-600w.svg" />
+                <source media="(min-width: 1200px)" srcset="./../img/logo-footer/logotipo-footer-1200w.svg" />
+                <img class="logotipo-footer" src="./../img/logo-footer/logotipo-footer.svg"  alt="Logotipo de Twenty One Pilots en Amarillo">
+            </picture>
         </div> 
         <div class="rightLegalSide">
             <ul class="listLegalLinks">
-                <li><a href="">Política de privacidad</a></li>
-                <li><a href="">Política de cookies</a></li>
-                <li><a href="">Aviso legal</a></li>
+                <li><a href="/src/html/categoria.html">Noticias</a></li>
+                <li><a href="/src/html/presentacion.html">Presentación</a></li>
+                <li><a href="/src/html/enlaces.html">Enlaces</a></li>
+
             </ul>
         </div>
-    
     </footer> 
 </body>
 </html>
