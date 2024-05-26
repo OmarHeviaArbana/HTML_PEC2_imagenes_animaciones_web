@@ -479,7 +479,7 @@ button a {
 /* ANIMATIONS */
 
 .container-animacion {
-      overflow-x: clip;
+      overflow-x: hidden;
       padding-bottom: 10px;
 }
 
