@@ -2,7 +2,7 @@
 
 ## LINK DEMO
 
-https://twentyonepilotssite.netlify.app/html/presentacion
+https://twentyonepilotssite.netlify.app
 
 ## MEJORAS IMPLEMENTADAS
 
