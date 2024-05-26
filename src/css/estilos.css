@@ -1,6 +1,5 @@
 html {
     font-family: "Martian Mono", monospace;
-    font-optical-sizing: auto;
     color: var(--red);
 }
 
@@ -217,9 +216,6 @@ h3 , h4{
         top: 0;
         left: 0;
         transform: translate(0, 0) rotate(270deg);
-    }
-    101% {
-        transform: translate(0, 0) rotate(360deg);
     }
 } 
 @keyframes linear-text {
@@ -442,7 +438,7 @@ button a {
     animation: showPoligon 4s infinite;
     position: absolute; 
     top:420px;
-    left: 100;
+    left: 100px;
     background-color:#FFD80080;
 }
 .clip-image-rectangle {
@@ -610,7 +606,7 @@ button a {
         max-width: 90px;
         height: 90px;
         top: 320px;
-        left: 100;
+        left: 100px;
     }
 
     .clip-image-rectangle {
@@ -640,7 +636,7 @@ button a {
         max-width: 90px;
         height: 90px;
         top: 320px;
-        left: 100;
+        left: 100px;
     }
 
     .clip-image-rectangle {
