@@ -2,6 +2,21 @@
 
 ## LINK DEMO
 
+https://twentyonepilotssite.netlify.app/html/presentacion
+
+## MEJORAS IMPLEMENTADAS
+
+- Mejora del rendimiento, gracias a que los recursos gráficos (imagenes y svg) han sido adaptados a al tamaño de pantalla y densidad de pixeles. Para ello, se han utilizado técnicas como imaganes adaptativas, imagenes responsive y dirección de arte.
+  
+- Introducción de diferentes animaciones para mejorar el dinamismo del sitio.
+  
+- Se introduce el nombre del grupo en la navbar y un recursos gráfico svg en el footer. Además en el footer, se modifican los links para dar acceso a las páginas del sitio.
+  
+- Revisión del responsive general del sitio.
+  
+- Para la gestión del repositorio se incluye git ignore ya que en la anterior entrega no se incluyó.
+  
+- Se presenta de forma más amigable en link de netlify del sitio.
 
 ## INSTALACIONES REALIZADAS
 
