@@ -30,6 +30,8 @@ h3 , h4{
     margin: 8px 0px 15px ;
 }
 
+
+
 /* ANIMATIONS*/
 
 @keyframes textInitialEffect {
@@ -282,19 +284,7 @@ nav ul li a.linkNavSeleccionado {
 nav ul li a:hover{
     color: var(--white); 
 }
-nav ul li:nth-child(4)  {
-    padding-left: 10px;
-}
-nav ul li:nth-child(3)  {
-    padding-left: 10px;
-}
-nav ul li:nth-child(2)  {
-    padding-left: 10px;
-    margin-right: 10px;
-}
-nav ul li:nth-child(1)  {
-    margin-right: 10px;
-}
+
 
 nav a {
     display: flex;
@@ -309,11 +299,131 @@ nav a {
     width: 200px  
 }
 
+/* HAMBURGUER MENU */
+
+#menuToggle {
+    position: relative;
+    z-index: 1;
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+
+#menuToggle input {
+    position: absolute;
+    width:40px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; 
+    -webkit-touch-callout: none;
+    height: 50px;
+    width: 50px;
+}
+
+#menuToggle span {
+    z-index: 1;
+    transform-origin: 4px 0;
+    background: #231f20;
+    border-radius: 3px;
+    width: 53px;
+    height: 6px;
+    margin-bottom: 8px;
+    transition: transform .5s cubic-bezier(.77, .2, .05, 1), opacity .55s;
+    display: block;
+    position: relative;
+}
+
+#menuToggle span {
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transform-origin: 4px 0px; 
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%; 
+}
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%; 
+}
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(7px, -1px);
+    background: #232323;
+    margin: auto;
+}
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(-12px, 23px);
+}
+#menuToggle input:checked ~ span:nth-last-child(3) { 
+    opacity: 0; 
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menu {
+    position: absolute; 
+    left: -600px;
+    top: 80px; 
+    width: 200px; 
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    list-style-type: none; 
+    -webkit-font-smoothing: antialiased; 
+    transition: top 0.5s;
+}
+    
+#menuToggle input:checked ~ ul {
+    display:contents;
+}
+
+#menu li {
+    padding: 0;
+    font-size: 22px;
+}
+
+#menuToggle input:checked {
+    left: 40px;
+}
+
+
 @media only screen and (min-width: 600px) {
 
     .logotipo-nav {
 
         width: 200px;
+    }
+    nav ul li:nth-child(4)  {
+        padding-left: 10px;
+    }
+    nav ul li:nth-child(3)  {
+        padding-left: 10px;
+    }
+    nav ul li:nth-child(2)  {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    nav ul li:nth-child(1)  {
+        margin-right: 10px;
+    }
+
+    #menuToggle span  {
+        display: none;
+    }
+    #menu {
+        position: unset;
+        background: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 15px;
+        width: auto;
+    }
+    #menuToggle {
+        position: unset;
+        margin-top: 0;
+    }
+    #menuToggle input:checked ~ ul {
+        display:flex;
     }
 }
 
@@ -437,7 +547,7 @@ button a {
     height: 50px;
     animation: showPoligon 4s infinite;
     position: absolute; 
-    top:420px;
+    top:350px;
     left: 100px;
     background-color:#FFD80080;
 }
@@ -448,7 +558,7 @@ button a {
     height: 50px;
     animation: showPoligon 3s infinite;
     position: absolute; 
-    top: 440px;
+    top: 360px;
     right: 100px;
     background-color:#FFD80080;
   
@@ -460,7 +570,7 @@ button a {
     height: 50px;
     animation: showParallelogram 4s infinite;
     position: absolute; 
-    top: 790px;
+    top: 750px;
     left: 120px;
     background-color:#FFD80080;
 }
@@ -471,7 +581,7 @@ button a {
     height: 50px;
     animation: showCircle 5s infinite;
     position: absolute; 
-    top: 790px;
+    top: 750px;
     right: 100px;
     background-color:#FFD80080;
 }
