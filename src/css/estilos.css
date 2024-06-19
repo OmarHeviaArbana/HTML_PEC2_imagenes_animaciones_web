@@ -787,6 +787,7 @@ main section.articlesContainer {
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
     gap: 40px;
+    justify-content: center;
 }
 
 section.articlesContainer div img  {
@@ -941,7 +942,7 @@ article {
    
     grid-template-columns: 1fr;
     margin: 0 2% 80px;
-    padding: 20px 60px 40px;
+    padding: 20px 0px 40px;
 }
 
 .articlesSection    {
@@ -971,6 +972,7 @@ article div.cardBlog h4 a {
     text-decoration: none;
     color: var(--red);
     line-height: 1.1; 
+    word-wrap: break-word;
 }
 .articleBodyContainer h2 {
     font-weight: 700;
@@ -1065,11 +1067,8 @@ div .cardBlog span.authorArticle {
 }
 
 @media only screen and (min-width: 600px) {
-
-    .containerCards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+    article {
+        padding: 20px 60px 40px;
     }
 }
  
@@ -1148,6 +1147,10 @@ div.containerEnlaces div.cardEnlaces a.linkEnlaces:hover {
     border: 1px solid var(--white);
 }
 
+@media only screen and (min-width: 600px) {
+
+}
+
 @media only screen and (min-width: 1200px) {
     section div.containerEnlaces {
         display: grid;
@@ -1183,7 +1186,8 @@ article div.containerPresVideo a.linkPresVideo {
     grid-template-columns: 1fr;
     gap: 0;
     margin: 0 10% 80px;
-    padding: 20px 0px 40px;
+    padding: 20px 30px 40px;
+    justify-content: center;
 }
 .articlePresentacion .introductionContainer :first-child{
     margin-top: 0;
