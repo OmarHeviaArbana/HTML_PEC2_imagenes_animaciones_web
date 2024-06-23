@@ -8,7 +8,7 @@ html {
     --yellow: #ffd900;
     --red: #e03d2e;
     --white: #FFF;
-    --gray: #7e7e7e
+    --gray: #5e5c5c;
 }
 
 @font-face {
@@ -861,6 +861,8 @@ div.cardBlog div a.btnLinkCard {
     border: 1px solid var(--red);
     padding:10px;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 div.cardBlog div a.btnLinkCard:hover {
@@ -1135,7 +1137,7 @@ section div.containerEnlaces div.cardEnlaces h4 {
 }
 section div.containerEnlaces div.cardEnlaces p {
     font-size: 1rem;
-    color: var(--gray);
+    color: var(--white);
     margin-bottom: 30px;
 
 }
