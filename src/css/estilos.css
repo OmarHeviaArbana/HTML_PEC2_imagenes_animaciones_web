@@ -8,6 +8,7 @@ html {
     --yellow: #ffd900;
     --red: #e03d2e;
     --white: #FFF;
+    --gray: #7e7e7e
 }
 
 @font-face {
@@ -459,9 +460,9 @@ nav a {
 
 
 .contianerImg {
-    background-image: url('./../img/inicio-principal/inicio-principal-600w.png'); /* ADAPTATIVE IMAGE */
+    background-image: url('./../img/inicio-principal/inicio-principal-600w.webp'); /* ADAPTATIVE IMAGE */
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .tituloHome {
@@ -641,7 +642,7 @@ button a {
 @media only screen and (min-width: 600px) {
 
     .contianerImg {
-        background-image: url('./../img/inicio-principal/inicio-principal.png'); /* ADAPTATIVE IMAGE */
+        background-image: url('./../img/inicio-principal/inicio-principal.webp'); /* ADAPTATIVE IMAGE */
     }
     
     div.productsContainer {
@@ -707,7 +708,7 @@ button a {
 @media only screen and (min-width: 1200px) {
 
     .contianerImg {
-        background-image: url('./../img/inicio-principal/inicio-principal-1200w.png'); /* ADAPTATIVE IMAGE */
+        background-image: url('./../img/inicio-principal/inicio-principal-1200w.webp'); /* ADAPTATIVE IMAGE */
     }
     .tituloHome {
         padding: 500px 100px ;
@@ -818,7 +819,7 @@ div.cardBlog div:nth-child(2) , div.cardVideo div:nth-child(2) {
 }
 span.authorArticle {
     font-size: 0.9rem;
-    color: var(--white);
+    color: var(--gray);
 }
 
 div.cardBlog div h3 , div.cardVideo div h3 {
@@ -994,7 +995,7 @@ article div.cardBlog h4 a {
 
 div.cardBlog p.authorArticle {
     font-size: 0.9rem;
-    color: var(--white);
+    color: var(--gray);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1134,7 +1135,7 @@ section div.containerEnlaces div.cardEnlaces h4 {
 }
 section div.containerEnlaces div.cardEnlaces p {
     font-size: 1rem;
-    color: var(--white);
+    color: var(--gray);
     margin-bottom: 30px;
 
 }

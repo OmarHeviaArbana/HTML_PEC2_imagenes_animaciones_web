@@ -85,6 +85,12 @@ npm i -D posthtml-include
 /// Añadir archivo .posthtmlrc
 ```
 
+### CONVERTIR IMAGENES A WebP
+
+```text
+cwebp -q 100 src/img/presentacion/presentacion.png -o src/img/presentacion/presentacion.webp
+```
+
 ## COMPILAR WEB
 
 ```text
