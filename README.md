@@ -1,16 +1,15 @@
 # Proyecto: Twenty one pilots site
 
-## LINK 
+## Link
 
 https://twentyonepilotssite.netlify.app
 
-## DESCRIPCIÓN
+## Descripción
 
-Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de música. Implementando adecuadamente las técnicas de dirección de arte, clipping, imágenes responsive y animación web, y hacerlo de forma accesible.
-El sitio web deberá seguir las características que se especifican a continuación:
+Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de música. Implementando adecuadamente las técnicas de dirección de arte, clipping, imágenes responsive y animación web, y hacerlo de forma accesible. 
 
 
-## MEJORAS IMPLEMENTADAS
+## Mejoras implementadas
 
 - Mejora del rendimiento, gracias a que los recursos gráficos (imagenes y svg) han sido adaptados a al tamaño de pantalla y densidad de pixeles. Para ello, se han utilizado técnicas como imaganes adaptativas, imagenes responsive y dirección de arte.
   
@@ -24,7 +23,7 @@ El sitio web deberá seguir las características que se especifican a continuaci
   
 - Se presenta de forma más amigable en link de netlify del sitio.
 
-## INSTALACIONES REALIZADAS
+## Instalaciones realizdas
 
 ### BREW
 
