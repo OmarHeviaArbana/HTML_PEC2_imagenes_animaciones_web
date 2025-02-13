@@ -1,8 +1,14 @@
-# HTML Y CSS HERRAMIENTAS I : PEC 2- IMAGENES Y ANIMACIONES EN LA WEB
+# Project Networks: Twenty one pilots site
 
-## LINK DEMO
+## LINK 
 
 https://twentyonepilotssite.netlify.app
+
+## DESCRIPCIÓN
+
+Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de música. Implementando adecuadamente las técnicas de dirección de arte, clipping, imágenes responsive y animación web, y hacerlo de forma accesible.
+El sitio web deberá seguir las características que se especifican a continuación:
+
 
 ## MEJORAS IMPLEMENTADAS
 
