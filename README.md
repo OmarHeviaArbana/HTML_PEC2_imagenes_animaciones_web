@@ -1,4 +1,6 @@
-# Proyecto: Twenty one pilots site
+# Twenty one pilots site
+
+<image style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" src="src/img/miniatura.png" alt="Twenty one pilots site">
 
 ## Link
 
@@ -6,8 +8,7 @@ https://twentyonepilotssite.netlify.app
 
 ## Descripción
 
-Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de música. Implementando adecuadamente las técnicas de dirección de arte, clipping, imágenes responsive y animación web, y hacerlo de forma accesible. 
-
+Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de música, implementando adecuadamente las técnicas de dirección de arte, clipping, imágenes responsive y animación web, y hacerlo de forma accesible. Aquí se presenta el resultado final tras diferentes mejoras de rendmientos
 
 ## Mejoras implementadas
 
@@ -23,9 +24,33 @@ Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de músi
   
 - Se presenta de forma más amigable en link de netlify del sitio.
 
-## Instalaciones realizdas
+---
 
-### BREW
+# Twenty one pilots site
+
+## Description
+
+Development of a website with free design and content about a music group, properly implementing techniques such as art direction, clipping, responsive images, and web animation, while ensuring accessibility. This is the final result after various performance improvements.
+
+## Implemented Improvements
+
+- Performance optimization: Graphic resources (images and SVGs) have been adapted to screen size and pixel density using techniques such as adaptive images, responsive images, and art direction.
+
+- Enhanced animations: Various animations have been introduced to improve the site's dynamism.
+
+- Navbar and footer updates: The band's name has been added to the navbar, along with an SVG graphic in the footer. Additionally, the footer links have been modified to provide access to different pages on the site.
+
+- General responsiveness review: The site's responsiveness has been improved.
+  
+- Repository management: A .gitignore file has been included, as it was missing in the previous version.
+  
+- Netlify link presentation: The Netlify site link is now displayed more clearly.
+
+---
+
+## Instalaciones necesarias / Required Installations
+
+### Brew
 
 ```text
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -34,7 +59,7 @@ source ~/.zshrc
 
 ```
 
-### NVM
+### Nvm
 
 ```text
 brew install nvm
@@ -44,14 +69,14 @@ source ~/.zshrc
 
 ```
 
-### NODE JS
+### Node
 
 ```text
 nvm install 20
 nvm use 20.12.2
 ```
 
-### PARCEL
+### Parcel
 
 ```text
 npm install --save-dev parcel
@@ -60,7 +85,7 @@ npm install npm-run-all --save-dev
 
 ```
 
-### PACKAGE.JSON
+### Package Json
 
 ```text
 {
@@ -83,26 +108,26 @@ npm install npm-run-all --save-dev
 }
 ```
 
-### POST HTML
+### Post Html
 
 ```text
 npm i -D posthtml-include
 /// Añadir archivo .posthtmlrc
 ```
 
-### CONVERTIR IMAGENES A WebP
+### Convertir imagenes a webp / Convert Images to WebP
 
 ```text
 cwebp -q 100 src/img/presentacion/presentacion.png -o src/img/presentacion/presentacion.webp
 ```
 
-## COMPILAR WEB
+### Compilar web / Compile the Website
 
 ```text
 npm start
 ```
 
-## PREPARACIÓN DESPLIEGUE
+### Preparación despliegue / Deployment Preparation
 
 ```text
 npm build
