@@ -22,6 +22,9 @@ Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de músi
   
 - Se presenta de forma más amigable en link de netlify del sitio.
 
+**Author:** Omar Hevia Arbana  
+**Date:** Mayo 2024
+
 ---
 
 # Twenty one pilots site
@@ -41,6 +44,9 @@ Development of a website with free design and content about a music group, prope
 - General responsiveness review: The site's responsiveness has been improved.
   
 - Netlify link presentation: The Netlify site link is now displayed more clearly.
+
+**Author:** Omar Hevia Arbana  
+**Date:** May 2024
 
 ---
 
