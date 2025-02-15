@@ -20,8 +20,6 @@ Desarrollo de un sitio web, de diseño y contenido libre sobre un grupo de músi
   
 - Revisión del responsive general del sitio.
   
-- Para la gestión del repositorio se incluye git ignore ya que en la anterior entrega no se incluyó.
-  
 - Se presenta de forma más amigable en link de netlify del sitio.
 
 ---
@@ -41,8 +39,6 @@ Development of a website with free design and content about a music group, prope
 - Navbar and footer updates: The band's name has been added to the navbar, along with an SVG graphic in the footer. Additionally, the footer links have been modified to provide access to different pages on the site.
 
 - General responsiveness review: The site's responsiveness has been improved.
-  
-- Repository management: A .gitignore file has been included, as it was missing in the previous version.
   
 - Netlify link presentation: The Netlify site link is now displayed more clearly.
 
